@@ -1,0 +1,9 @@
+server.port = 8007
+spring.jpa.show-sql = true
+spring.datasource.url = jdbc\:postgresql\://localhost\:8683/revatureDB
+spring.datasource.username = postgres
+spring.datasource.password = D3nki-P3na-92
+spring.jpa.hibernate.ddl-auto = update
+spring.jpa.properties.hibernate.dialect = org.hibernate.dialect.PostgreSQLDialect
+management.security.enabled = false
+spring.jpa.properties.hibernate.auto_quote_keyword = true
